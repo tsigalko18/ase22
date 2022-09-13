@@ -1,0 +1,26 @@
+name: udacity-self-driving-car
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.6.8
+  - pip=20.2.3
+  - pip:
+    - matplotlib==3.3.3
+    - numpy==1.18.0
+    - opencv-python==4.4.0.46
+    - pandas==1.1.4
+    - pillow==8.0.1
+    - scikit-learn==0.23.2
+    - scipy==1.4.1
+    - keras==2.3.0
+    - tensorflow==2.3.0
+    - tf-keras-vis==0.8.0
+    - tqdm==4.52.0
+    - eventlet
+    - flask==1.1.2
+    - python-socketio==4.5.1
+    - python-engineio==3.11.2
+    - h5py==2.10.0
+prefix: /opt/anaconda3/envs/udacity-self-driving-car
